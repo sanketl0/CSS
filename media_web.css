@@ -1,0 +1,31 @@
+*body{
+    margin: 0px;
+    padding: 0px;
+}
+
+.top_menu{
+    height: 50px;
+    float: left;
+    width: 100%;
+    background-color:#eeeeee;
+}
+
+.top_menu_logo{
+    height: 100%px;
+    width: 25%;
+    float: left;
+    
+}
+
+.logo{
+    position: absolute;
+}
+
+.main_menu{
+    height: 100px;
+    float: left;
+    background-color: #684313;
+    width: 100%;
+    border: 2px solid red;
+}
+

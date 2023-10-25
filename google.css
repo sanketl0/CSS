@@ -1,0 +1,58 @@
+
+.zero{
+    height: 400px;
+    width: 300px;
+    margin-left:250px;
+}
+
+
+
+.first {
+    font-size: 150px;
+    font-weight: bold;
+    color:rgb(21, 20, 20); 
+    float: left;
+    margin-top: 200px;
+    margin-left: 300px;
+    text-shadow: 2px 2px;
+    
+    
+}
+.sea{
+    float: left;
+    margin-left: 575px;
+    
+}
+
+.bar{
+    height: 40px;
+    width: 400px;
+    border-radius: 50px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.third{
+    margin-top: 15px;
+    height: 60px;
+    width: 100%;
+    float: left;
+    text-align: center;
+}
+
+.third button{
+    padding: 5px;
+    width: 150px;
+    background-color: rgb(195, 185, 185);
+    border: none;
+    font-weight: bold;
+}
+
+.btn_1{
+    margin-left: 35px;
+}
+
+.btn_2{
+    margin-left: 60px;
+}
+

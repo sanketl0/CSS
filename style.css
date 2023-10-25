@@ -1,0 +1,902 @@
+.box{
+    height: 400px;
+    width: 400px;
+    background-color: black;
+    float:left;
+    margin-left: 35%;
+    margin-top: 9%;
+
+    /* border properties */
+    /* border-style: solid;
+    border-width: 5px;
+    border-color: green; */
+
+    border-top-style: solid;
+    border-top-width: 20px;
+    border-top-color: green;
+
+    border-right-style: solid;
+    border-right-width: 20px;
+    border-right-color:blue;
+
+    border-bottom-style: solid;
+    border-bottom-width: 20px;
+    border-bottom-color:green;
+
+    border-left-style: solid;
+    border-left-width: 20px;
+    border-left-color:blue;
+
+    /* border: width style color; */
+    border: 20px solid blue;
+    border-top: 20px solid red;
+    border-bottom: 20px solid green;
+    border-left: 20px solid yellow;
+    border-right: 20px solid blue;
+    outline: 20px dotted green;
+    outline-offset: 10px;
+
+
+    border: 20px solid blue;
+    border: 20px dotted blue;
+    border: 20px double blue;
+    border: 20px dashed blue;
+    border: none;
+    border: 20px groove blue;
+    border: 20px inset blue;
+}
+
+.newbox{
+    height: 300px;
+    width: 300px;
+    background-color: blueviolet;
+    float: left;
+    margin-top: 11%;
+    margin-left: 11%;
+    border-style:solid;
+    border-width: 5px;
+    border-color: red;
+
+}
+
+.newbox2{
+    height: 200px;
+    width: 200px;
+    background-color: red;
+    float: left;
+    margin-top: 16%;
+    margin-left: 15%;
+    border-style:solid;
+    border-width: 5px;
+    border-color:green;
+
+}
+
+.box_sizing{
+    width: 25%;
+    height: 400px;
+    background-color: aqua;
+    float: left;
+    border: 5px solid red;
+    box-sizing: border-box;
+}
+
+.outline_box{
+    height: 400px;
+    width: 400px;
+    background-color: red;
+    float: left;
+    margin-top: 30px;
+    margin-left: 50px;
+    /* outline-style: ;
+    outline-width: ;
+    outline-color: ; */
+
+    border: 10px solid yellow;
+    outline: 10px solid blue;
+    outline-offset: 10px;
+
+}
+
+.border_radius{
+    height: 400px;
+    width: 400px;
+    background-color: aqua;
+    float: left;
+    margin: 100px;
+
+
+    /* 
+    tl - top left
+    tr- top right
+    bl - bottom right
+    bl - bottom left
+    */
+
+    /* tl-tr-br-bl     */
+    border-radius: 100px;
+
+    /* tl-br | tr-bl */
+    border-radius: 50px 100px;
+
+    /* tl |tr-bl | br */
+    border-radius: 10px 50px 100px;
+
+    /* tl |tr |br |bl */
+    border-radius: 10px 50px 100px 150px;
+
+    /* circle */
+    /* border-radius: 50%; */
+}
+
+.text_propertie{
+    color: blue;
+    text-transform: uppercase;
+    text-transform: lowercase;
+    text-transform: capitalize;
+
+    text-decoration: underline;
+    text-decoration: overline;
+    text-decoration: line-through;
+
+    text-decoration-color:red ;
+    text-decoration-style: dotted;
+
+    text-align: left;
+    text-align: right;
+    text-align: center;
+    text-align: justify;
+
+ /* operation specific last line*/
+    text-align-last: right;
+
+    text-indent: 100px;
+
+    letter-spacing:  3px;
+    word-spacing: 20px;
+    line-height: 2.0;
+}
+
+.font_propertie{
+    background-color: blueviolet;
+    font-size: 50px;
+    font-weight: bold;
+    font-weight:normal;
+    font-style: italic;
+    font-family: verdana;
+
+}
+
+.float_prop{
+    height: 300px;
+    /* float: left; */
+    float: right;
+}
+
+.clear_prop{
+    height:300px;
+    /* clear:left; */
+    /* float: left; */
+    clear: right;
+    clear: right;
+    float: left;
+
+}
+
+.background{
+    height: 300px;
+    width: 100%;
+    background-color: aqua;
+    background-image: url(nature.jpg);
+   
+    background-repeat: repeat-y;
+    background-repeat: repeat-x;
+    background-repeat: no-repeat;
+
+    background-size: 200px 200px;
+
+    background-position: top left;
+    background-position: top center;
+    background-position: top right;
+
+    background-position: center left;
+    background-position: center center;
+    background-position: center right;
+
+    background-position: bottom left;
+    background-position: bottom center;
+    background-position: bottom right;
+    background-position: top left;
+
+
+    background-position: 200px 100px;
+
+}
+
+.background1{
+    height: 400px;
+    width: 100%;
+    background-image: url("https://media.istockphoto.com/id/1135222830/photo/asphalt-road-and-green-woods-in-the-countryside-nature-park.jpg?s=612x612&w=0&k=20&c=oSRiOLcOIqcg8dpdjWV9_M-A5deIsZSfyN7dmt-jumo=");
+    background-size: 100% 100%;
+    background-attachment: scroll;
+    background-attachment: fixed;
+
+}
+/* name color format */
+.color_format{
+    height: 300px;
+    width: 50%;
+    background-color: blue;
+}
+
+/* hex color format*/
+.color_format1{
+    height: 300px;
+    width: 75%;
+    background-color: #000000;
+    /* #rrggbb */
+}
+
+/* rgb()format */
+.color_format2{
+    height: 300px;
+    width: 100%;
+    background-color: rgb(255, 100, 255);
+    /*color - 0 -255  */
+
+}
+
+/* rgba */
+.color_format3{
+    height: 300px;
+    width: 100%;
+    background-color: rgba(0,0 ,225,0.4 );
+
+    /* background-color: rgba(red, green, blue, alpha);
+    a means alpha its value is 0.1 to 1.0
+    */
+}
+
+/* hsl format */
+.color_format4{
+    height: 400px;
+    width: 50%;
+    background-color: hsl(360,80%,50% );
+
+    /* background-color: hsl(hue, saturation, lightness);
+    h - heu 0-360
+        0-120 -red
+        120-240 green
+        240 -360 blue
+    
+        s -saturation (silver)
+        0% -100%
+        l - lightness
+            0 -50% black
+            50-100% white
+    */
+}
+
+.color_format5{
+    height: 700px;
+    width: 100%;
+    background-image:url("nature.jpg");
+    background-repeat: no-repeat;
+}
+
+.tran{
+    height: 100%;
+    width: 100%;
+    background-color: hsla(120, 100%,60%, 0.4);
+    /* background-color: hsla(hue, saturation, lightness, alpha); */
+}
+
+.margine{
+    height: 300px;
+    width: 300px;
+    background-color: orange;
+    float: left;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin: 200px;   /*it cover all the sides of box */
+
+    /* top-bottom || right- left */
+    margin: 50px 200px;
+
+    /* top | right-left | bottom */
+    margin: 10px 50px 100px;
+
+    /* top | right | bottom | left */
+    margin: 10px 50px 75px 100px;
+
+
+
+
+}
+
+.text_box{
+    height: 50px;
+    width: 100%;
+    background-color: green;
+    float: left;
+}
+
+.padding{
+    height: 300px;
+    width: 250px;
+    float: left;
+    background-color: yellow;
+
+    margin-top: 10px;
+    padding-left:100px ;
+    padding-right: 100px;
+    padding-top:100px ;
+
+
+    padding: 150px;
+    padding :50px 100px;
+    padding: 10px 50px 100px;
+    padding: 10px 50px 100px 150px;
+  
+}
+
+.height_width{
+    
+    /* height: 700px; */
+    /* min-height: 600px; */
+    max-height: 400px;
+    /* width: 100%; */
+    /* min-width: 600px; */
+    max-width: 400px;
+}
+
+.overflow{
+    height: 300px;
+    width: 300px;
+    background-color: yellow;
+    overflow: hidden;
+    overflow: scroll;
+
+    overflow-y: hidden;
+    overflow-x: scroll;
+
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+.text_shadow{
+    margin: 150px;
+    text-align: center;
+    color: red;
+    font-size: 150px;
+    font-weight: bold;
+    text-shadow: 2px 2px black;
+}
+
+.box_shadow{
+    height: 300px;
+    width: 300px;
+    background-color: black;
+    float: left;
+    margin-left: 30%;
+    margin-bottom: 200px;
+    box-shadow: 200px 100px 10px 10px yellow;
+    /* first px goes to left to right
+    second px goes to top to bottom
+    third px make the shodow blur
+    fourth px make shodow size increase */
+}
+
+.linear_gradient{
+    height: 200px;
+    width: 500px;
+    border: 2px black solid;
+    float: left;
+    /* background-color: aqua; */
+    margin: 50px;
+    border-radius: 20px;
+    background-image: linear-gradient(to right bottom ,darkblue,lightblue,darkblue);
+
+}
+
+.linear_gradient1{
+    height: 200px;
+    width: 500px;
+    float: left;
+    /* background-color: aqua; */
+    margin: 50px;
+    border-radius: 20px;
+    background-image: linear-gradient(to right bottom ,darkblue,lightblue,darkblue);
+    border: 2px black solid;
+
+}
+
+.radial_gradient1{
+    height: 200px;
+    width: 500px;
+    float: left;
+    margin: 50px;
+    border-radius: 20px;
+    border: 2px black solid;
+    background-image:radial-gradient(yellow 10%,blue,green,yellow)
+}
+
+.radial_gradient{
+    height: 200px;
+    width: 500px;
+    float: left;
+    margin: 50px;
+    border-radius: 20px;
+    border: 2px black solid;
+    background-image:radial-gradient(yellow 10%,blue,green,yellow)
+}
+
+.linear_gradient3{
+    height: 500px;
+    width: 200px;
+    /* background-color: red; */
+    float: right;
+
+    margin-right: 55px;
+    margin-top: 55px;
+
+    /* background-image: linear-gradient(to right bottom ,darkblue,lightblue,darkblue); */
+
+}
+
+.half{
+
+    /* background-color: red; */
+    height: 50%;
+    width: 100%;
+    border: 2px black solid;
+    border-radius: 20px;
+    background-image:radial-gradient(yellow 10%,blue,green,yellow)
+
+}
+
+.half1{
+    height: 50%;
+    width: 100%;
+    /* background-color: black; */
+    border-radius: 20px;
+    background-image: linear-gradient(to right bottom ,darkblue,lightblue,darkblue);
+    border: 2px black solid;
+}
+
+.opacity{
+    margin: 30px 100px 200px;
+    background-color:red;
+    opacity: 0.1;
+}
+
+.display_visibility1{
+    width: 100%;
+    height: 500px;
+    /* display: none; */
+    /* display: inline-block;
+    display: block;
+    display: table;
+    display: table-row;
+    display: table-cell;
+    visibility: hidden;
+    visibility: visible; */
+    background-color: red;
+    border-radius: 20px;
+
+
+}
+
+.display_visibility2{
+    width: 100%;
+    height: 500px;
+    background-color: black;
+
+}
+
+.cursor{
+    margin: 23px;
+    height: 300px;
+    width: 300px;
+    background-color: red;
+    /* cursor: pointer; */
+    /* cursor:not-allowed; */
+    /* cursor: zoom-in; */
+    cursor: help;
+    border-radius: 10px;
+}
+
+.icons li i{
+    color: red;
+    font-size: 40px;
+    margin-top: 30px;
+}
+
+.icons li{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    border: 2px solid yellow;
+    background-color: #000000;
+    display: inline-block;
+    margin-left: 20px;
+    text-align: center;
+    
+}
+
+
+/* position */
+.position_relative{
+    height: 400px;
+    width: 400px;
+    background-color: yellowgreen;
+    position: relative;
+    right:0px;
+    top: 0px;
+    float: left;
+    /* position type */
+    position: relative;
+    position: absolute;
+    position: static;
+    position: sticky;
+    position: fixed;
+
+
+}
+
+
+/* image can set anywhere */
+.position_absolute{
+    height: 300px;
+    width: 300px;
+    background-color: red;
+    float: left;
+    position:absolute;
+    /* bottom: 0px;
+    right: 0px;
+    left: 0px; */
+
+}
+
+/* position sticky */
+
+.sticky_box1{
+    height: 1000px;
+    width: 100%;
+    background-color: yellow;
+    float: left;
+
+}
+
+.sticky_box2{
+    height: 100px;
+    width: 100%;
+    background-color: black;
+    float: left;
+}
+
+.sticky_box3{
+    height: 100px;
+    width: 100%;
+    background-color: red;
+    float: left;
+    position: sticky;
+    top: 0px;
+}
+
+.sticky_box4{
+    height: 800px;
+    width: 100%;
+    background-image: linear-gradient(orange,rgb(210, 198, 200),green);
+    float: left;
+}
+
+.position_fixed{
+    height: 1000px;
+    width: 100%;
+    background-image: linear-gradient(red,blue,green);
+    float: left;
+}
+
+.position_fixed1{
+    height: 100px;
+    width: 100px;
+    border-radius: 70%;
+    background-color: white;
+    float: left;
+    position: fixed;
+    right:0px;
+    /* bottom: 0px; */
+    left: 0PX;
+}
+
+/* z index */
+.zindex_1{
+    height: 150px;
+    width: 150px;
+    float: left;
+    background-color: red;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    border: 10px solid white;
+    
+}
+
+.zindex_2{
+    height: 150px;
+    width: 150px;
+    float: left;
+    background-color: red;
+    position: absolute;
+    border: 10px solid white;
+    top: 75px;
+    left: 75px;
+   
+    
+
+}
+
+.zindex_3{
+    height: 150px;
+    width: 150px;
+    float: left;
+    background-color: red;
+    position: absolute;
+    top: 150px;
+    left: 150px;
+    border: 10px solid white;
+    z-index: 9999;
+}
+
+.transaction_box{
+    height: 200px;
+    width: 100px;
+    background-color: red;
+    /* float: left; */
+    transition-property: width;
+    transition-duration: 5s;
+
+    /* start after 2 s */
+    transition-delay: 2s; 
+
+        /* same scrolling */
+    transition-timing-function: ease;
+
+        /*slow starting  */
+    transition-timing-function: ease-in;
+
+    /* slow ending */
+    transition-timing-function: ease-out;
+
+    /* slow starting fast middle slow ending */
+    transition-timing-function: ease-in-out;
+
+}
+
+.transaction_box:hover{
+    width: 100%;
+
+}
+
+.transaction_box1{
+    height: 100px;
+    width: 100px;
+    background-color: yellow;
+    transition-duration: 3s;
+    transition-delay: 2s;
+    transition-timing-function: ease-in-out;
+}
+
+.transaction_box1:hover{
+    height: 500px;
+}
+
+.transform_rotate{
+    height: 300px;
+    width: 300px;
+    margin-top:20px ;
+    background-image: linear-gradient(orange,silver,green);
+}
+
+.transform_rotate:hover{
+    transform: rotate(60deg);
+}
+
+.transform_scale{
+    height: 300px;
+    width: 300px;
+    background-image: linear-gradient(yellow,red,green);
+    margin-top: 30px;
+    margin-left:500px ;
+    margin-bottom:30px ;
+    margin-right: 30px;
+}
+
+.transform_scale:hover{
+    transform: scale(2.0,2.0);
+    transform: scaleY(1.1);
+    transform: scalex(1.5);
+}
+
+.transform_translate{
+    height: 300px;
+    width: 300px;
+    background-color: red;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.transform_translate:hover{
+    transform: translate(100px,154px);
+    transform: translatey(100px);
+    transform: translatex(100px);
+
+}
+
+.transform_skew{
+    height: 300px;
+    width: 300px;
+    background-image: linear-gradient(red,blue,yellow);
+    margin-top: 100px;
+    margin-left: 100px;
+    margin-bottom: 100px;
+}
+
+.transform_skew:hover{
+    transform: skew(120deg,45deg);
+}
+
+.animation_box{
+    height: 300px;
+    width: 300px;
+    background-color: red;
+    float: left;
+    margin: 20px;
+    border-radius: 50%;
+    animation-name: demo;
+    animation-duration: 10s;
+    animation-delay: 2s;
+    animation-timing-function: ease;
+    animation-timing-function: ease-in;
+    animation-timing-function: ease-out;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: 5;
+}
+
+@keyframes demo {
+    /* from{
+        background-color: yellow;
+    }
+
+    to{
+        background-color: blue;
+    } */
+    
+    0%{background-color: green;}
+    10%{background-color: blue;}
+    20%{background-color: bisque;}
+    30%{background-color: blueviolet;}
+    40%{background-color: chartreuse;}
+    50%{background-color: darkmagenta;}
+    60%{background-color: darkred;}
+    70%{background-color: darkorange;}
+    80%{background-color: gold;}
+    90%{background-color:hsla(120, 100%,60%, 0.4)}
+    100%{background-color: hsl(360,80%,50% );}
+}
+
+    
+.animation_demo{
+    height: 500px;
+    width: 100%;
+    background-color: yellow;
+    float: left;
+
+}
+
+.animation_demo_circle{
+    height:50px;
+    width: 50px;
+    float: left;
+    animation-name: ball;
+    position: relative;
+    background-color: red;
+    border-radius: 50px;
+    animation-duration: 10s;
+    animation-delay: 2s;
+    animation-direction: reverse;
+    animation-direction: alternate;
+    animation-direction: alternate-reverse;
+    animation-iteration-count: 10;
+}
+
+@keyframes ball {
+    0%{top: 0px; left: 0%;}
+    10%{top: 450px; left: 0%;}
+    15%{top: 450px; left: 15%;}
+    25%{top: 0px; left: 15%;}
+    30%{top: 0px; left: 30%;}
+    35%{top: 450px; left: 30%;}
+    40%{top: 450px; left: 45%;}
+    45%{top: 0px; left: 45%;}
+    50%{top: 0px; left: 60%;}
+    55%{top: 450px; left: 60%;}
+    60%{top: 450px; left: 75%;}
+    70%{top: 0px; left: 75%;}
+    80%{top: 0px; left: 90%;}
+    90%{top: 450px; left: 90%;}
+    100%{top: 450px; left: 97%;}
+    
+}
+
+.first_box{
+    height: 300px;
+    width: 100%;
+    float: left;
+    background-color: red;
+
+}
+
+@media(max-width:666px){
+    /* mobile view  0 -*/
+.first_box{
+    background-color: black;
+}    
+}
+
+@media(min-width:666px){
+    /* tab view  666-926px*/
+.first_box{
+    background-color:silver;
+}    
+}
+
+@media(min-width:927px){
+    /* laptop view927 -1199px */
+.first_box{
+    background-color: black;
+}    
+}
+
+@media(min-width:1200px){
+    /* computer view  1200 < */
+.first_box{
+    background-color:purple;
+}    
+}
+
+.first_box0{
+    height: 300px;
+    width: 12.5%;
+    background-color: yellow;
+    box-sizing: border-box;
+    border: 1px solid black;
+    float: left;
+}
+
+@media(max-width:666px){
+.first_box0{
+    width: 50%;
+}
+}
+
+@media(min-width:667px){
+.first_box0{
+    width: 25%;
+}
+}
+
+@media(min-width:927px){
+.first_box0{
+    width: 16.66%;
+}
+}
+
+@media(min-width:1200px){
+.first_box0{
+    width: 12.5%;
+}
+}
